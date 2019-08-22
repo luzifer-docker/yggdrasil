@@ -1,7 +1,7 @@
 FROM golang:alpine as builder
 
 ENV DUMB_INIT_VERSION=1.2.2 \
-    YGGDRASIL_VERSION=0.3.7
+    YGGDRASIL_VERSION=0.3.8
 
 RUN set -ex \
  && apk --no-cache add \
